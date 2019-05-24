@@ -109,23 +109,8 @@ class _AppState extends State<App> {
                         origin = '';
                         errorField = postResponseJson['error'];
                       });
-                      
                     }
                   }
-
-                  // http.get(
-                  //   Uri.encodeFull(expressBackendUrl),
-                  //   headers: {'Accept': 'application/json'},
-                  // ).then((response) {
-                  //   print(response.body);
-                  //   var jsonResponse = convert.jsonDecode(response.body);
-                  //   setState(() {
-                  //     name = jsonResponse['name'];
-                  //     origin = jsonResponse['from'];
-                  //     print(jsonResponse['name']);
-                  //     print(jsonResponse['from']);
-                  //   });
-                  // });
                 },
                 color: Colors.blueAccent,
               ),
